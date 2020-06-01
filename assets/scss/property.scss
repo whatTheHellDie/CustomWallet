@@ -1,0 +1,41 @@
+@import "mixin";
+.wrap{background: #f0f0f0;position: relative;padding-bottom: 86rpx;}
+.navbar{
+	.charge-coin{
+		position: absolute;
+		width: 102rpx;
+		height: 42rpx;
+		right: 46rpx;
+		top: 20rpx;
+	}
+}
+.property-wrap{padding: 0 32rpx;}
+.total-pro{
+	width: 688rpx;
+	height: 366rpx;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 16rpx auto;
+	padding: 0 60rpx;box-sizing:border-box;
+	color: #fff;
+	font-size: 32rpx;
+	position: relative;
+	.bg{position: absolute;width: 688rpx;height: 366rpx;left: 0;top: 0;}
+	.title{
+		position: relative;
+		padding-top: 76rpx;
+	}
+	.img{position: relative;width: 35rpx;height: 16rpx;margin-left: 20rpx;}
+	.number{position: relative;font-size: 96rpx;margin-top: 10rpx;}
+}
+.coin-type{
+	margin-top: 32rpx;
+	.title{display: flex;justify-content: space-between;font-weight: 800;}
+	.ul{padding-top: 12rpx;}
+	.li{border-radius:20rpx;background: #fff;margin-bottom: 20rpx;padding: 18rpx 16rpx;font-weight: bold;display: flex;justify-content: space-between;}
+	.img{width: 52rpx;height: 52rpx;vertical-align: -14rpx;margin-right: 20rpx;}
+	.left{margin-top: 12rpx;}
+	.right{text-align: right;}
+	.cny{font-weight: normal;color: #999999;font-size: 24rpx;margin-top: 4rpx;}
+}
+
